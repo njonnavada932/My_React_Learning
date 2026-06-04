@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,121 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #5bc0eb,
+    #c92cff
+  );
+}
+
+.login-card {
+  width: 420px;
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.login-card h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.forgot {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: gray;
+}
+
+.login-btn {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: 30px;
+  cursor: pointer;
+
+  background: linear-gradient(
+    90deg,
+    #55d7e5,
+    #d72cff
+  );
+}
+
+.social-text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons button {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.social-icons button:nth-child(1) {
+  background: #3b5998;
+}
+
+.social-icons button:nth-child(2) {
+  background: #1da1f2;
+}
+
+.social-icons button:nth-child(3) {
+  background: #db4437;
+}
+
+.signup-section {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.signup-section a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
